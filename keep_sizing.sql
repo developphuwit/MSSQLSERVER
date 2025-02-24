@@ -16,4 +16,4 @@
 		(select sum(size) from fs where type = 1 and fs.database_id = db.database_id)) as TotalMB
 	from sys.databases db 
 
---By Tube
+--By Tube INETMS
